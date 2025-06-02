@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./src/assets/AZ.png" />
+    <title>AZZ Enterprise</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="./src/assets/AZ.png"
+              alt="Logo"
+              width="50"
+              height="50"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <!-- Hamburger toggle -->
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Nav items -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto align-items-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark px-3 active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark px-3" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark px-3" href="#">Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark px-3" href="#">EMI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark px-3" href="#">Resources</a>
+              </li>
+              <li class="nav-item d-none d-lg-block">
+                <a
+                  href="#try"
+                  class="btn btn-primary rounded-pill px-4 py-2 ms-3"
+                  role="button"
+                >
+                  Try it
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="position-relative d-flex align-items-center justify-content-center vh-100 bg-google-gradient"
+      >
+        <!-- Shopping Cart -->
+        <div class="position-absolute svg-icon1">
+          <svg
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="text-white animate-bounce"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path
+              d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+            ></path>
+          </svg>
+        </div>
+
+        <!-- Shield -->
+        <div class="position-absolute svg-icon2">
+          <svg
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="text-white animate-bounce"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+        </div>
+
+        <!-- Credit Card -->
+        <div class="position-absolute svg-icon3">
+          <svg
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="text-white animate-bounce"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+            <line x1="1" y1="10" x2="23" y2="10"></line>
+          </svg>
+        </div>
+
+        <!-- Lightning -->
+        <div class="position-absolute svg-icon4">
+          <svg
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="text-white animate-bounce"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+
+        <div class="container text-center text-white px-3">
+          <h1
+            id="animated-heading"
+            class="fw-bold mb-3 fs-3 fs-sm-2 fs-md-1"
+            style="transition: opacity 0.5s ease"
+          ></h1>
+
+          <p class="mb-4 opacity-75 fs-5">
+            Enjoy flexible EMI options with DBS Bank, designed to make your
+            shopping easier and more affordable.<br />
+            Take advantage of zero hidden charges, instant approvals, and
+            convenient payment plans.<br />
+            Experience complete peace of mind backed by our trusted partnership
+            with DBS Bank.
+          </p>
+
+          <form class="d-flex mx-auto" style="max-width: 500px">
+            <input
+              type="search"
+              name="q"
+              class="form-control rounded-pill me-2 py-2"
+              placeholder="Search EMI plans or offers"
+              aria-label="Search EMI plans"
+              required
+            />
+            <button
+              type="submit"
+              class="btn btn-primary rounded-pill px-4"
+              style="white-space: nowrap"
+            >
+              Shop Now
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="s-product">
+        <section class="container py-4 my-5">
+          <div class="text-center mb-4">
+            <h2 class="fw-light fs-1 mb-3">Featured Products</h2>
+            <p class="text-muted fw-lighter mb-2">
+              Enjoy flexible EMI plans with DBS Bank and explore our top picks
+              designed for your lifestyle.
+            </p>
+          </div>
+
+          <div class="row justify-content-center g-4 py-5">
+            <div class="col-md-6 col-lg-3">
+              <div class="card h-100">
+                <img
+                  src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80"
+                  class="card-img-top"
+                  alt="Smartphone"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title text-uppercase fs-6 text-muted mb-3">
+                    Latest Smartphone
+                  </h5>
+                  <p class="card-text fw-medium card-lh">
+                    Get the latest smartphone with 0% interest EMI through DBS
+                    Bank.
+                  </p>
+                  <a href="#" class="text-primary text-decoration-none mt-auto">
+                    Buy with EMI
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="card h-100">
+                <img
+                  src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80"
+                  class="card-img-top"
+                  alt="Laptop"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title text-uppercase text-muted fs-6 mb-3">
+                    Powerful Laptop
+                  </h5>
+                  <p class="card-text fw-medium card-lh">
+                    High-performance laptop for work & play – now with easy EMI
+                    options.
+                  </p>
+                  <a href="#" class="text-primary text-decoration-none mt-auto"
+                    >Explore Offers</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="card h-100">
+                <img
+                  src="https://lh3.googleusercontent.com/xN4G04mtRqBPtEYQLGdS-6_RV_UGkm1XF-1VzkeXaINkqKLhoc84YtTAhD3_pfDjuF4oAHBXww6kSZytX48LSbMFfev7AlVOoDbN_w=w596-h340-p-nu-pa"
+                  class="card-img-top"
+                  alt="Smart TV"
+                />
+
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title text-uppercase text-muted fs-6 mb-3">
+                    Smart TV
+                  </h5>
+                  <p class="card-text fw-medium card-lh">
+                    Upgrade your entertainment with DBS-backed monthly
+                    installments.
+                  </p>
+                  <a href="#" class="text-primary text-decoration-none mt-auto"
+                    >Shop Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-3">
+            <a href="#" class="text-primary text-decoration-none">
+              See all products
+            </a>
+          </div>
+        </section>
+      </section>
+
+      <section class="s-emi bg-light py-5">
+        <div class="container text-center py-5" style="max-width: 900px">
+          <div
+            class="d-inline-flex align-items-center justify-content-center bg-google-gradient text-white rounded-circle mb-5"
+            style="width: 60px; height: 60px"
+          >
+            <i class="bi bi-quote fs-3"></i>
+          </div>
+          <p class="fs-4 fw-medium text-dark mb-4">
+            “Why choose
+            <span class="bg-google-gradient text-white rounded px-2 py-1"
+              >EMI with AZZ ?</span
+            >
+            Because it builds trust, enhances efficiency, showcases strong
+            partnerships, and drives real-time user engagement to elevate your
+            business success.”
+          </p>
+          <p class="text-muted mb-0">
+            <span class="text-dark fw-bold">His/Her Name,</span> Chief Strategy
+            Officer, AZZ
+          </p>
+        </div>
+      </section>
+
+      <section class="bg-google-gradient text-white py-5">
+        <div class="container text-center">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-10">
+              <h2 class="fw-bold mb-3">
+                Seamless EMI Integration with DBS Bank
+              </h2>
+              <p class="lead mb-4">
+                Enjoy quick approvals, zero hidden charges, and flexible monthly
+                payments powered by DBS.
+              </p>
+              <a
+                href="#"
+                class="btn btn-light btn-lg px-4 rounded-pill fw-semibold"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="s-testimonials container py-5 my-5"
+        style="max-width: 1152px"
+      >
+        <h3 class="mb-5 text-center fw-bold">
+          Real Stories from Happy Customers
+        </h3>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card testimonial-card border-0 rounded-4 shadow-sm p-4 h-100"
+            >
+              <div class="d-flex align-items-center mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/women/44.jpg"
+                  alt="Alice Johnson"
+                  class="rounded-circle me-3"
+                  width="50"
+                  height="50"
+                />
+                <div>
+                  <p class="fw-semibold mb-0">Johnson</p>
+                  <p class="text-muted small mb-0">CEO</p>
+                </div>
+              </div>
+              <p
+                class="fst-italic text-body-secondary fs-6"
+                style="line-height: 1.5"
+              >
+                “Partnering with DBS has transformed our financial operations.
+                The EMI benefits have streamlined our processes and built trust
+                with our clients.”
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card testimonial-card border-0 rounded-4 shadow-sm p-4 h-100"
+            >
+              <div class="d-flex align-items-center mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
+                  alt="Michael Smith"
+                  class="rounded-circle me-3"
+                  width="50"
+                  height="50"
+                />
+                <div>
+                  <p class="fw-semibold mb-0">Michael</p>
+                  <p class="text-muted small mb-0">Researcher</p>
+                </div>
+              </div>
+              <p
+                class="fst-italic text-body-secondary fs-6"
+                style="line-height: 1.5"
+              >
+                “The EMI solutions provided by DBS have significantly improved
+                our cash flow management, allowing us to focus on growth and
+                customer satisfaction.”
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card testimonial-card border-0 rounded-4 shadow-sm p-4 h-100"
+            >
+              <div class="d-flex align-items-center mb-3">
+                <img
+                  src="https://randomuser.me/api/portraits/women/65.jpg"
+                  alt="Rachel Lee"
+                  class="rounded-circle me-3"
+                  width="50"
+                  height="50"
+                />
+                <div>
+                  <p class="fw-semibold mb-0">Rook Lee</p>
+                  <p class="text-muted small mb-0">Marketing Director</p>
+                </div>
+              </div>
+              <p
+                class="fst-italic text-body-secondary fs-6"
+                style="line-height: 1.5"
+              >
+                “With DBS's support, we have enhanced our user engagement
+                strategies, leveraging EMI benefits to foster deeper connections
+                with our customers.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s-login py-5 my-5">
+        <div class="container bg-light py-5 w-75">
+          <div
+            class="d-flex flex-column flex-md-row align-items-center justify-content-between px-3"
+          >
+            <div class="text-md-start text-center mb-3 mb-md-0">
+              <h2 class="h-sm mb-3" style="font-size: 2rem">
+                Log in for personalized EMI deals with DBS
+              </h2>
+              <p class="text-secondary fs-6 mb-0">
+                Unlock EMI offers, track plans, and enjoy seamless shopping with
+                DBS.
+              </p>
+            </div>
+            <div>
+              <button
+                type="button"
+                class="btn btn-custom-color btn-lg rounded-pill px-4 fs-6 fw-semibold"
+              >
+                Register
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-white border-top pt-5 pb-3 text-secondary">
+      <section class="container px-3">
+        <div class="row gy-4">
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="fw-bold fs-5 text-dark mb-3">AZZ</div>
+            <p class="small mb-1">© 2025 Azz Enterprise LLC</p>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <div class="text-uppercase fw-semibold small mb-3 text-dark">
+              Company
+            </div>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  >About</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  >Blog</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  >Catalog</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  >Investor Relations</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  >Sustainability</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <div class="text-uppercase fw-semibold small mb-3 text-dark">
+              Products
+            </div>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  >Store</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  >Play</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  >Workspace</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  >Cloud</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  >Buy</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="text-uppercase fw-semibold small mb-3 text-dark">
+              Connect
+            </div>
+            <ul
+              class="list-unstyled small mb-0 d-flex flex-column flex-sm-column flex-md-column flex-lg-column flex-xl-column gap-2"
+            >
+              <li>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  aria-label="Twitter"
+                >
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  aria-label="Facebook"
+                >
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  aria-label="LinkedIn"
+                >
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  aria-label="YouTube"
+                >
+                  YouTube
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener"
+                  class="text-secondary text-decoration-none link-primary-hover"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between align-items-center mt-4 pt-3 border-top small text-secondary"
+        >
+          <div>© 2025 Azz Enterprise. All rights reserved.</div>
+          <div class="mt-2 mt-sm-0">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              class="text-secondary text-decoration-none me-3 link-primary-hover"
+              >Help</a
+            >
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              class="text-secondary text-decoration-none me-3 link-primary-hover"
+              >Privacy Policy</a
+            >
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              class="text-secondary text-decoration-none me-3 link-primary-hover"
+              >Terms of Service</a
+            >
+            <a
+              href=""
+              target="_blank"
+              rel="noopener"
+              class="text-secondary text-decoration-none link-primary-hover"
+              >Privacy Controls</a
+            >
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

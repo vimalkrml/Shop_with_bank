@@ -1,0 +1,92 @@
+body {
+  font-family: "Poppins";
+}
+.bg-google-gradient {
+  background: linear-gradient(135deg, #ff74ba, #1cd2df) !important;
+}
+.nav-link {
+  position: relative;
+  transition: color 0.2s ease;
+  color: #000;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #1a73e8;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+.nav-link:hover {
+  color: #1a73e8;
+}
+
+/* Active link: keep text color and underline */
+.nav-link.active {
+  color: #1a73e8;
+  font-weight: 600;
+}
+
+.text-highlight {
+  color: #ebe853; /* Replace with your custom hex/rgb/variable */
+  font-weight: 700;
+}
+.svg-icon1 {
+  top: 150px;
+  left: 200px;
+}
+.svg-icon2 {
+  top: 150px;
+  right: 200px;
+}
+.svg-icon3 {
+  bottom: 150px;
+  left: 100px;
+}
+.svg-icon4 {
+  bottom: 150px;
+  right: 100px;
+}
+.animate-bounce {
+  animation: bounce 1.5s infinite;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/**Products*/
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+.card-lh {
+  line-height: 28px;
+}
+
+/**Testimonials**/
+.btn-custom-color {
+  background-color: #e8f0fe;
+  color: #1967d2;
+}
+/***Footer***/
+
+.link-primary-hover:hover,
+.link-primary-hover:focus {
+  color: #0d6efd !important;
+  text-decoration: underline !important;
+}
