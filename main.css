@@ -20,6 +20,10 @@ body {
   background-color: #1a73e8;
   transition: width 0.3s ease;
 }
+.product-link::after {
+  height: 0px;
+  background-color: #198754;
+}
 
 .nav-link:hover::after,
 .nav-link.active::after {
