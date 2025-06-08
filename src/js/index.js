@@ -1,3 +1,7 @@
+// src/index.js
+// Import all of Bootstrap's JS
+import * as bootstrap from 'bootstrap'
+
 const heading = document.getElementById("animated-heading");
 const texts = [
   "Shop Now. Pay Later with Confidence",
